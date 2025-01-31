@@ -1,0 +1,74 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: #1a1a1a;
+}
+body{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #000;
+    max-height: fit-content;
+    min-width:400px;
+    padding:30px;
+    border-radius:25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container h1{
+    color:#fff;
+    text-align: center;
+}
+.input-container{
+    height:30px;
+    display:flex;
+    gap:5px;
+}
+.input-container input[type="text"]{
+    border:none;
+    height:100%;
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    flex:3;
+}
+.input-container button{
+    background-color: #aa3232;
+    border: none;
+    padding:3px;
+    border-radius: 5px;   
+    color:#fff;
+    flex:1;
+}
+
+#to-doItems{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#to-doItems li{
+    color:#fff;
+    background-color: #1a1a1a;
+    padding:9px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    border-radius: 5px;   
+}
+#to-doItems li button{
+    padding:5px 2px;
+    background-color: #2211ee;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+}

@@ -65,7 +65,7 @@ body{
     font-weight: 800;
     border-radius: 5px;   
 }
-#to-doItems li button{
+#to-doItems li div button{
     padding:5px 2px;
     background-color: #2211ee;
     border:none;
